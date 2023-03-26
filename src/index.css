@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input__field{
+        @apply border-2 border-slate-400 rounded-md px-2 selection:bg-slate-300 h-8;
+    }
+    .gradient__bg{
+        background-color: rgb(153, 246, 228);
+        background-image: radial-gradient(at 2% 28%, rgb(220, 252, 231) 0, transparent 73%), radial-gradient(at 7% 29%, rgb(249, 168, 212) 0, transparent 59%), radial-gradient(at 44% 13%, rgb(245, 158, 11) 0, transparent 81%), radial-gradient(at 33% 70%, rgb(253, 186, 116) 0, transparent 55%), radial-gradient(at 80% 45%, rgb(148, 163, 184) 0, transparent 32%), radial-gradient(at 19% 3%, rgb(29, 78, 216) 0, transparent 91%);
+    }
+    .label__field{
+        @apply text-zinc-700 font-semibold text-lg tracking-wide;
+    }
+
+}
